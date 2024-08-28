@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ResultDivisao</title>
+
+	//6. Escreva um programa que retorne o resultado da divisão inteira entre dois números inteiros
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		let n1, n2, resultado;
+
+		n1 = parseInt(prompt("Digite o primeiro número: "))
+
+		n2 = parseInt(prompt("Digite o segundo número: "))
+
+		if (n2 === 0) {
+			document.write("Não é possível dividir por zero.");
+		} else {
+			resultado = Math.floor(n1 / n2); 
+
+			document.write("O resultado da divisão inteira é: " + resultado);
+		}
+
+
+
+	</script>
+
+</body>
+</html>
