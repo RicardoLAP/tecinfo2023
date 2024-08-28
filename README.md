@@ -1,4 +1,4 @@
-# tecinfo2023E
+# tecinfo2023
 
 Guia de Configuração e Uso do Projeto
 
