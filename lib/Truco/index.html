@@ -8,21 +8,25 @@
 
     <title>Barai</title>
 
+    <nav>
+        <h1>oi</h1>
+    </nav>
 
 </head>
 
 <body>
     <div class="game-board">
-        <div class="card" onclick="alert('Carta 1')">Carta 1</div>
-        <div class="card" onclick="alert('Carta 2')">Carta 2</div>
-        <div class="card" onclick="alert('Carta 3')">Carta 3</div>
+        <div class="card" id="card1"></div>
+        <div class="card" id="card2"></div>
+        <div class="card" id="card3"></div>
     </div>
 
     <div class="button-container">
-        <button class="button" id="button1" onclick="alert('Botão 1 clicado!')">Buscar cartas</button>
-        <button class="button" id="button2" onclick="alert('Botão 2 clicado!')">Olhar cartas</button>
-        <button class="button" id="button3" onclick="alert('Botão 3 clicado!')">Reembaralhar</button>
+        <button class="button" id="button1" onclick="buscarCartas()">Buscar cartas</button>
+        <button class="button" id="button2" onclick="buscarCartas()">Olhar cartas</button>
+        <button class="button" id="button3" onclick="reembaralhar()">Reembaralhar</button>
     </div>
+
 
 
 

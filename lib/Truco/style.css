@@ -42,8 +42,9 @@
     }
 
     .button {
+        font-family: Arial, Helvetica, sans-serif;
         padding: 15px 35px;
-        font-size: 16px;
+        font-size: 24px;
         cursor: pointer;
         border: none;
         border-radius: 5px;
