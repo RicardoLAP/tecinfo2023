@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,29 +8,40 @@
 
     <title>Barai</title>
 
-    <nav>
-        <h1>oi</h1>
-    </nav>
-
 </head>
 
 <body>
-    <div class="game-board">
-        <div class="card" id="card1"></div>
-        <div class="card" id="card2"></div>
-        <div class="card" id="card3"></div>
-    </div>
+    <main>
+        <div class="navbar">
+            <div class="info">
+                Cartas restantes:
+                <span id="remaining" class="info">0</span>
+            </div>
 
-    <div class="button-container">
-        <button class="button" id="button1" onclick="buscarCartas()">Buscar cartas</button>
-        <button class="button" id="button2" onclick="buscarCartas()">Olhar cartas</button>
-        <button class="button" id="button3" onclick="reembaralhar()">Reembaralhar</button>
-    </div>
+            <div class="info">
+                Deck ID:
+                <span id="deck_id" class="info">_</span>
+            </div>
+        </div>
+        <div class="game-board">
+            <div class="card" id="card1"></div>
+            <div class="card" id="card2"></div>
+            <div class="card" id="card3"></div>
+        </div>
 
+        <div class="button-container">
+            <button class="button" onclick="deck.gerarBaralho()">Novo baralho</button>
+            <button class="button" onclick="deck.olharCartas()">Olhar Carta</button>
+            <button class="button" onclick="deck.reembaralhar()">Re-embaralhar</button>
+        </div>
 
+    </main>
 
 
     <script src="./truco.js"></script>
+
+
+
 </body>
 
 </html>
